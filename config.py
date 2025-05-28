@@ -26,7 +26,7 @@ CONFIG = {
 }
 
 # Robot 19 6
-
+"""
 CONFIG["username"] = "19"
 CONFIG["password"] = "9CD5CC95E8"
 CONFIG["api_key"] = os.getenv("YUNWU_API_KEY")
@@ -37,7 +37,7 @@ CONFIG["propmt_language"] = "EN"
 CONFIG["code_generator_prompt_key"] = "CODE_GENERATOR_EN"
 CONFIG["fault_locator_prompt_key"] = "FAULT_LOCATOR_EN"
 CONFIG["code_repairer_prompt_key"] = "CODE_REPAIRER_EN"
-
+"""
 
 # Robot 20 1,5,6
 """
