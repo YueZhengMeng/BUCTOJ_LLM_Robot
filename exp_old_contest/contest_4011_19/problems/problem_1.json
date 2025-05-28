@@ -1,0 +1,10 @@
+{
+    "idx": 1,
+    "title": "问题 B: Hello World",
+    "description": "输入一个字符流，把它转换为字符串输出。 \n\n每一个十六进制代码对应一个可见字符的ASCII码。",
+    "input_description": "一行，若干个以十六进制代码（大写）表示的字符流，每两个十六进制代码之间以单个空格隔开。保证：字符流的总数位的数量大于 $2$，不超过 $100$，且为偶数。",
+    "sample_input": "48 65 6C 6C 6F 2C 77 6F 72 6C 64 21",
+    "output_description": "输出一行，表示十六进制代码对应的字符串。",
+    "sample_output": "Hello,world!",
+    "hint": "十六进制48对应的十进制为72，再由上表可知，ASCII码为72的字符为H。"
+}

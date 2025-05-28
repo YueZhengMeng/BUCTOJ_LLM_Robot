@@ -1,0 +1,10 @@
+{
+    "idx": 0,
+    "title": "问题 A: 爱在人元前",
+    "description": "意大利地质学家 Cesare Emiliani 在1993年提出了一种全新的纪年法 - 人类纪年（Holocene calendar 或 Human Era）。与公元相对应，简称人元（HE）。 \n\n人元是一种由公元改良而来的纪年方法。它引入了\"0年\"（公元没有0年，\"公元1年\"的上一年是\"公元前1年\"），并把公元前1年（1 BC）定为人元10000年（10000 HE）. \n\n将现在的公元纪年加上10000除了方便以外，还有一个主要的原因：之所以称为人类纪年，是因为：\n\n·人元0年前后是最后一次冰河期结束。\n·在此时世界从旧石器时代进入新石器时代。\n·世界截至目前发现最早的大型文明建筑群哥贝克力石阵大约建于人元300多年。\n\n此外，这种纪年法相对于公元纪年还有一些优点：\n\n·现行公历公元前的闰年算法需要将年份数减去1，再\"除以4\"，公元前的闰年出现在公元前1、5、9、13 .. 年，而人元纪年则无须进行这样的预处理。\n·人元纪年将纪年起点推送到人类已散布在当时的各个大陆上的时间点上，使得描述人类自诞生以来的历史无需使用公元前的负数数轴，时间点更加容易对比。\n·现时所采年的公历以耶稣基督降生纪年，而人类纪年则没有明确的宗教立场，对不同或没有宗教的人公平。\n\n以下是几个公元和人元转化的例子：\n\n\n\n\n\n\t\t\t\t公元\n\t\t\t\n\n\t\t\t\t    人元\n\t\t\t\n\n\t\t\t\t    历史事件\n\t\t\t\n\n\n\n\t\t\t\t20001 BC    \n\t\t\t\n\n\t\t\t\t-10000 HE\n\t\t\t\n\n\n\n\t\t\t\t10001 BC\n\t\t\t\n\n\t\t\t\t0 HE\n\t\t\t\n\n\t\t\t\t    末次冰期大致结束，地球进入间冰期，中石器时代开始\n\t\t\t\n\n\n\n\t\t\t\t3150 BC\n\t\t\t\n\n\t\t\t\t6851 HE\n\t\t\t\n\n\t\t\t\t    古埃及第一王朝建立\n\t\t\t\n\n\n\n\t\t\t\t509 BC\n\t\t\t\n\n\t\t\t\t9492 HE\n\t\t\t\n\n\t\t\t\t    罗马共和国建立\n\t\t\t\n\n\n\n\t\t\t\t221 BC\n\t\t\t\n\n\t\t\t\t9780 HE\n\t\t\t\n\n\t\t\t\t    秦朝建立\n\t\t\t\n\n\n\n\t\t\t\tAD 618\n\t\t\t\n\n\t\t\t\t10618 HE\n\t\t\t\n\n\t\t\t\t    唐朝建立\n\t\t\t\n\n\n\n\t\t\t\tAD 1945\n\t\t\t\n\n\t\t\t\t11945 HE\n\t\t\t\n\n\t\t\t\t    第二次世界大战结束\n\t\t\t\n\n\n\n\t\t\t\tAD 1970\n\t\t\t\n\n\t\t\t\t11970 HE\n\t\t\t\n\n\t\t\t\t    Unix纪年\n\t\t\t\n\n\n\n\t\t\t\tAD 2022\n\t\t\t\n\n\t\t\t\t12022 HE\n\t\t\t\n\n\t\t\t\t    今年\n\t\t\t\n\n\n\n\n输入一个人元年份，请你输出它对应的公元年份。",
+    "input_description": "输入一个整数 $x(-10000 \\leq x \\leq 12022)$，表示 $x$ HE。",
+    "sample_input": "11970",
+    "output_description": "若 $x$ HE 对应公元前 $y$ 年，请输出一行 \"$y$ BC\"；或者若 $x$ HE 对应公元 $y$ 年，请输出一行 \"AD $y$\"。（不含引号）",
+    "sample_output": "AD 1970",
+    "hint": "无"
+}

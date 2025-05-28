@@ -1,0 +1,10 @@
+{
+    "idx": 3,
+    "title": "问题 D: 圆的面积",
+    "description": "平面直角坐标系中有 $N$ 个点。坐标为 $(x_1, y_1)$ 到 $(x_N, y_N)$。\n\n定义 $S(i, j)$ 为以 $(x_i, y_i)$ 和 $(x_j, y_j)$ 所连成的线段为直径所作出的圆的面积（定义两个重合的点为直径做出的圆的面积为0）。\n\n求 $\\sum\\limits_{i = 1}^N \\sum\\limits_{j = 1}^N S(i, j)$。\n\n为了避免浮点数精度误差，请输出上式乘以 $\\dfrac{4}{\\pi}$  后对 998244353 取模的结果。",
+    "input_description": "输入的第一行为一个整数 $N(1\\leq N \\leq 10^5)$，表示点的个数。接下来 $N$ 行，每行包含两个整数 $x_i, y_i (0 \\leq |x_i|, |y_i| \\leq 10^9)$，第 $i$ 对整数代表第 $i$ 个点的坐标。",
+    "sample_input": "3\n0 1\n1 0\n0 0",
+    "output_description": "输出一个整数，表示 $\\sum\\limits_{i = 1}^N \\sum\\limits_{j = 1}^N S(i, j)$ 乘以 $\\dfrac{4}{\\pi}$  后对 998244353 取模的结果。",
+    "sample_output": "8",
+    "hint": "无"
+}

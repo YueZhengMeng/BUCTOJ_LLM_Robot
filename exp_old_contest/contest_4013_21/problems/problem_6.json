@@ -1,0 +1,10 @@
+{
+    "idx": 6,
+    "title": "问题 G: 小z的序列",
+    "description": "给你一个$n$个数的数组$a$\n现在有一个数组$b$,数组$b$等于数组$a$\n现在你可以按照任意顺序打乱$b$数组\n求下式的最大值\n$$\\sum_{i=1}^{n}[a_i>b_i]$$\n$[a_i>b_i]$表示\n当$a_i>b_i$返回$1$\n否则返回$0$\n(1 <= $n$ <= $200000$ , 1 <= $a_i$<= $n$ )",
+    "input_description": "$n$$a_1$ $a_2$ .......$a_n$",
+    "sample_input": "4\n1 2 3 3",
+    "output_description": "该式最大值",
+    "sample_output": "2",
+    "hint": "无"
+}

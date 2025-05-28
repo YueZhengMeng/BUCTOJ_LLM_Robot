@@ -1,0 +1,10 @@
+{
+    "idx": 3,
+    "title": "问题 D: 棋盘",
+    "description": "",
+    "input_description": "",
+    "sample_input": "3 3\r\n1 1 2 2\r\n2 2 3 3\r\n1 1 3 3",
+    "output_description": "",
+    "sample_output": "001\r\n010\r\n100",
+    "hint": ""
+}

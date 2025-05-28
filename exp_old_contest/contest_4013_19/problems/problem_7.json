@@ -1,0 +1,10 @@
+{
+    "idx": 7,
+    "title": "问题 H: PolarBear 的二选一",
+    "description": "PolarBear 卡题了希望你能帮帮他，面前有俩个可做题 $A$ 和 $B$，$A$ 题过了 $a$ 个人，$B$ 题过了 $b$ 个人，他希望他做的题尽量简单所以他会挑过的人数更多的那个题，请你输出他应该选择的那个题目",
+    "input_description": "一行 $2$ 个整数 $1\\leq a, b \\leq 1000$ ， $ a \\not= b$ 。",
+    "sample_input": "180 120",
+    "output_description": "输出一个字母，请输出大写字母 \"A\" 如果他应该做 $A$ 题否则输出 \"B\"。",
+    "sample_output": "A",
+    "hint": "样例2输入:390 1000输出:B"
+}

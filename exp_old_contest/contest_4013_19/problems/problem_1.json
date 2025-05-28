@@ -1,0 +1,10 @@
+{
+    "idx": 1,
+    "title": "问题 B: 谁是今天的女王",
+    "description": "在只有女生的今天里，我要征服世界！ \n\n\n\n—— Tisfy \n\n\n\n小T今天也来参加女生赛了，也许她就在你们身边。 \n\n\n\n相比于都在认真做题的她们，小T有一个野心，就是想用魅力征服今天在场的所有人。 \n\n\n\n每个女人啊，都有着她自己的魅力值。 \n\n\n\n当两个女生相遇时，魅力值高的女生就能把魅力值低的女生征服，然后两人一起（魅力值相加）去尝试征服其他人。 \n\n\n\n如果两个女生魅力值相同，那么谁都当不了今天的女王。 \n\n\n\n因为其他女生都在做题，因此小T必须静悄悄地，按顺序尝试一个个地征服在场的所有人，然后成为今天的女王。 \n\n\n\n如果读不懂题目可以观看视频演示以帮助理解。",
+    "input_description": "输入格式：输入第一行是空格隔开的两个数T TT和n nn，分别代表“小T的魅力值”和“除小T之外其他女生的人数”第二行是空格隔开的n nn个整数M 1 M 2 ⋯ M n M_1 M_2 cdots M_nM1M2⋯Mn，依次代表小T想要征服的第1 11个女生、第2 22个女生、……为了避免造成太大的动静，小T必须按顺序依次征服她们。数据范围：1 ≤ n ≤ 1000 1leq nleq 10001≤n≤10001 ≤ T ≤ 1000 1leq Tleq 10001≤T≤10001 ≤ M i ≤ 1000 1leq M_ileq 10001≤Mi≤1000，其中1 ≤ i ≤ n 1leq ileq n1≤i≤n\n输入第一行是空格隔开的两个数T TT和n nn，分别代表“小T的魅力值”和“除小T之外其他女生的人数”第二行是空格隔开的n nn个整数M 1 M 2 ⋯ M n M_1 M_2 cdots M_nM1M2⋯Mn，依次代表小T想要征服的第1 11个女生、第2 22个女生、……为了避免造成太大的动静，小T必须按顺序依次征服她们。数据范围：1 ≤ n ≤ 1000 1leq nleq 10001≤n≤10001 ≤ T ≤ 1000 1leq Tleq 10001≤T≤10001 ≤ M i ≤ 1000 1leq M_ileq 10001≤Mi≤1000，其中1 ≤ i ≤ n 1leq ileq n1≤i≤n\n第二行是空格隔开的n nn个整数M 1 M 2 ⋯ M n M_1 M_2 cdots M_nM1M2⋯Mn，依次代表小T想要征服的第1 11个女生、第2 22个女生、……为了避免造成太大的动静，小T必须按顺序依次征服她们。数据范围：1 ≤ n ≤ 1000 1leq nleq 10001≤n≤10001 ≤ T ≤ 1000 1leq Tleq 10001≤T≤10001 ≤ M i ≤ 1000 1leq M_ileq 10001≤Mi≤1000，其中1 ≤ i ≤ n 1leq ileq n1≤i≤n\n为了避免造成太大的动静，小T必须按顺序依次征服她们。数据范围：1 ≤ n ≤ 1000 1leq nleq 10001≤n≤10001 ≤ T ≤ 1000 1leq Tleq 10001≤T≤10001 ≤ M i ≤ 1000 1leq M_ileq 10001≤Mi≤1000，其中1 ≤ i ≤ n 1leq ileq n1≤i≤n\n数据范围：1 ≤ n ≤ 1000 1leq nleq 10001≤n≤10001 ≤ T ≤ 1000 1leq Tleq 10001≤T≤10001 ≤ M i ≤ 1000 1leq M_ileq 10001≤Mi≤1000，其中1 ≤ i ≤ n 1leq ileq n1≤i≤n",
+    "sample_input": "100 2\n90 150",
+    "output_description": "你作为小T，能成为今天的女王吗？如果能，请输出一行一个字符串：I'm the queen today!否则，请输出一行一个字符串：Oh no, so charming she is.\n如果能，请输出一行一个字符串：I'm the queen today!否则，请输出一行一个字符串：Oh no, so charming she is.\n否则，请输出一行一个字符串：Oh no, so charming she is.",
+    "sample_output": "I'm the queen today!",
+    "hint": "无"
+}

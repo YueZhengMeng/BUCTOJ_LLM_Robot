@@ -1,0 +1,10 @@
+{
+    "idx": 1,
+    "title": "问题 B: 本题由ChatGPT生成",
+    "description": "莎士比亚穿越到了现代，对电影这种新奇的艺术形式产生了浓厚的兴趣。\n\n他观看了几部不同类型的经典影片：Gone with the Wind（乱世佳人）讲述了一段动荡时代的爱恨情仇，Twelve Angry Men（十二怒汉）展现了一个陪审团的辩论过程，The Sound of Music（音乐之声）唱出了一家人的欢乐与困难，The Godfather（教父）揭示了黑手党的权力斗争，Star Wars（星球大战）描绘了一个遥远的银河系中的冒险故事，Alien（异形）惊悚地揭示了外星生物的恐怖，Back to the Future（回到未来）幽默地展示了时空旅行的可能性。\n\n莎翁被这些影片深深地打动，于是用他独特的诗才，用这几部影片的片名拼凑出了一首诗：莎翁被这些影片深深地打动，于是用他独特的诗才，用这几部影片的片名拼凑出了一首诗： \n\n\nIn days of old when knights were bold,\n\n\nAnd journeys gone with the wind,\n\n\nA tale was told of men so cold,\n\n\nTwelve angry men within.\n\n\n\n\n\nTheir fury raged like fire ablaze,\n\n\nBut hark! What's that I hear?\n\n\nThe sound of music through the haze,\n\n\nA melody so clear.\n\n\n\n\n\nIt spoke of love and family ties,\n\n\nOf the godfather's might,\n\n\nAnd battles fought in distant skies,\n\n\nIn star wars day and night.\n\n\n\n\n\nBut though the future seemed so grand,\n\n\nWith alien life to find,\n\n\nOur hero wished to take a stand,\n\n\nAnd journey back to the future in time.\n\n\n\n\n\nFor in his heart he knew so true,\n\n\nThat the sound of music's call,\n\n\nWould guide him home to love anew,\n\n\nAnd peace would come to all.\n\n\n\n在这首诗中，有一部影片的片名出现了两次，而其他的片名只出现了一次。这说明莎翁对这部影片有着特别的喜爱。请问他最钟爱的是哪一部影片？",
+    "input_description": "无",
+    "sample_input": "",
+    "output_description": "请输出一部电影的英文原名。例如，如果他最喜欢的是《回到未来》，请输出一行\"Back to the Future\"（不含引号，不区分大小写）。",
+    "sample_output": "",
+    "hint": "无"
+}

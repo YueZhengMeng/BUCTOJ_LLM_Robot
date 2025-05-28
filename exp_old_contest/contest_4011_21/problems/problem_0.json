@@ -1,0 +1,10 @@
+{
+    "idx": 0,
+    "title": "问题 A:  数字转中文",
+    "description": "本题含有多组数据\n\n给定一个自然数，要求把它转换为汉语表示方式。",
+    "input_description": "第一行包含一个正整数 $T(1 \\le T \\le 10^4)$ 表示数据组数。接下来 $T$ 行，每行一个不超过一亿的自然数。",
+    "sample_input": "9\n10\n105020\n200\n100000000\n12345678\n20050\n100010\n90809\n10203040",
+    "output_description": "输出 $T$ 行，对于每组数据，输出对应自然数的汉语表示方式，使用拼音，并且用单个空格间隔。",
+    "sample_output": "shi \nshi wan ling wu qian ling er shi \ner bai \nyi yi\nyi qian er bai san shi si wan wu qian liu bai qi shi ba \ner wan ling wu shi \nshi wan ling yi shi \njiu wan ling ba bai ling jiu \nyi qian ling er shi wan ling san qian ling si shi",
+    "hint": "无"
+}

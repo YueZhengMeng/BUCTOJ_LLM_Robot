@@ -1,0 +1,10 @@
+{
+    "idx": 8,
+    "title": "问题 I: 洞穴寻宝",
+    "description": "你在一个洞穴迷宫中，每个洞穴都有一个有理数作为标签。假设你在标记为 $x$ 的洞穴中。那么你有两个选择：\n\n\n\n\n向左走：这会带你到标记为 $x+1$ 的洞穴。\n\n\n向右走：这会带你到标记为 $\\frac{x}{x+1}$ 的洞穴。\n\n\n\n\n你从标记为 $1$ 的洞穴开始。找到到达标记为 $\\frac{p}{q}$ 的洞穴的最短路径，其中 $p$ 和 $q$ 是互质的正整数。",
+    "input_description": "输入包含一行，包含两个用空格分隔的整数 $p$ 和 $q$（$2 \\le p, q \\le 5 \\cdot 10^5$，且 $p$ 和 $q$ 互质）。",
+    "sample_input": "5 4",
+    "output_description": "输出一行，由大写字母 $\\tt{L}$ 或 $\\tt{R}$ 组成，表示最短路径。可以保证最短路径是唯一的。",
+    "sample_output": "RRRL",
+    "hint": "对于第一个样例，你的最短路径可以如下：$1 \\rightarrow \\frac{1}{2} \\rightarrow \\frac{1}{3} \\rightarrow \\frac{1}{4} \\rightarrow \\frac{5}{4}$"
+}

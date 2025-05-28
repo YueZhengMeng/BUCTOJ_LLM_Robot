@@ -1,0 +1,10 @@
+{
+    "idx": 5,
+    "title": "问题 F: 简简单单解方程",
+    "description": "已知 $A$ 和 $B$，求解下列二元一次方程组：\n\n$\\begin{cases}x + y = A \\\\x - y = B \\\\\\end{cases}$\n\n其中 $x$ 和 $y$ 是未知数。",
+    "input_description": "输入一行，给定两个以空格隔开的整数 $A$ 和 $B$。满足 $(-100 \\leq A,B \\leq 100)$，保证存在唯一的整数 $x$ 和 $y$，使得 $x+y=A$ 且 $x-y=B$。",
+    "sample_input": "3 1",
+    "output_description": "输出一行，两个以单个空格隔开的整数 $x,y$",
+    "sample_output": "2 1",
+    "hint": "无"
+}
