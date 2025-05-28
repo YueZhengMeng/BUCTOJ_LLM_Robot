@@ -1,0 +1,10 @@
+{
+    "idx": 0,
+    "title": "问题 A: 超级楼梯",
+    "description": "有一个楼梯共M级台阶，刚开始你在第一级，若每次只能挂上1或2级，要走上M级，共有多少种走法？",
+    "input_description": "首先包含一个整数N，表示测试实例的个数，然后是N行数据，每行一个M，表示楼梯级数",
+    "sample_input": "2\n2\n3",
+    "output_description": "对于每个实例 输出不同走法的数量",
+    "sample_output": "1\n2",
+    "hint": "1≤M≤40"
+}
