@@ -1,0 +1,10 @@
+{
+    "idx": 54,
+    "title": "问题 BC: 字符逆序",
+    "description": "将一个字符串str的内容颠倒过来，并输出。str的长度不超过100个字符。",
+    "input_description": "输入包括一行。\n第一行输入的字符串。",
+    "sample_input": "I am a student",
+    "output_description": "输出转换好的逆序字符串。",
+    "sample_output": "tneduts a ma I",
+    "hint": "无"
+}

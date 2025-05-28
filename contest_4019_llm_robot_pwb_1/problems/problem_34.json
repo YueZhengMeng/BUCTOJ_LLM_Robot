@@ -1,0 +1,10 @@
+{
+    "idx": 34,
+    "title": "问题 AI: C语言程序设计教程（第三版）课后习题9.8",
+    "description": "分别用函数和带参的宏，从三个数中找出最大的数。",
+    "input_description": "3个实数",
+    "sample_input": "1 2 3",
+    "output_description": "最大的数,输出两遍，先用函数，再用宏。\n保留3位小数。",
+    "sample_output": "3.000\n3.000",
+    "hint": "无"
+}

@@ -1,0 +1,10 @@
+{
+    "idx": 17,
+    "title": "问题 R: C语言程序设计教程（第三版）课后习题7.3",
+    "description": "求一个3×3矩阵对角线元素之和。",
+    "input_description": "矩阵",
+    "sample_input": "1 2 3\n1 1 1\n3 2 1",
+    "output_description": "主对角线 副对角线 元素和",
+    "sample_output": "3 7",
+    "hint": "无"
+}

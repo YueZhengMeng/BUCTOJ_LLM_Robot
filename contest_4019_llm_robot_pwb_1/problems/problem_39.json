@@ -1,0 +1,10 @@
+{
+    "idx": 39,
+    "title": "问题 AN: C语言程序设计教程（第三版）课后习题10.4",
+    "description": "有n个整数，使前面各数顺序向后移m个位置，最后m个数变成前面m个数，见图。写一函数：实现以上功能，在主函数中输入n个数和输出调整后的n个数。",
+    "input_description": "输入数据的个数n\nn个整数\n移动的位置m",
+    "sample_input": "10\n1 2 3 4 5 6 7 8 9 10\n2",
+    "output_description": "移动后的n个数",
+    "sample_output": "9 10 1 2 3 4 5 6 7 8",
+    "hint": "无"
+}

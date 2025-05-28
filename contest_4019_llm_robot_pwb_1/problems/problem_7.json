@@ -1,0 +1,10 @@
+{
+    "idx": 7,
+    "title": "问题 H: C语言程序设计教程（第三版）课后习题6.3",
+    "description": "求Sn=a+aa+aaa+…+aa…aaa（有n个a）之值，其中a=2。 当n=5，Sn=2+22+222+2222+22222，n由键盘输入。",
+    "input_description": "n，小于等于5",
+    "sample_input": "1",
+    "output_description": "总和",
+    "sample_output": "2",
+    "hint": "无"
+}

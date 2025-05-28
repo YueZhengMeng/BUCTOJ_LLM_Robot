@@ -1,0 +1,10 @@
+{
+    "idx": 65,
+    "title": "问题 BN: 镜像文字",
+    "description": "天气太冷，学校却还不放寒假，外面冷得像冰库，真郁闷！Zero实在无聊，冻得哪儿都去不了，只能玩玩字符游戏，他想把ab变成aba，把123变成12321，你来帮帮他的忙吧。",
+    "input_description": "输入若干行。每行一个字符串，最长为200位。",
+    "sample_input": "111\n123\nzero",
+    "output_description": "输出镜像文字，如输入124，则输出12421。具体看样例。",
+    "sample_output": "11111\n12321\nzerorez",
+    "hint": "无"
+}

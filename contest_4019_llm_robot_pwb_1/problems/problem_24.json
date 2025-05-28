@@ -1,0 +1,10 @@
+{
+    "idx": 24,
+    "title": "问题 Y: C语言程序设计教程（第三版）课后习题8.5",
+    "description": "写一函数，使输入的一个字符串按反序存放，在主函数中输入输出反序后的字符串。",
+    "input_description": "一行字符",
+    "sample_input": "123456abcdef",
+    "output_description": "逆序后的字符串",
+    "sample_output": "fedcba654321",
+    "hint": ""
+}

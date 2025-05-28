@@ -1,0 +1,10 @@
+{
+    "idx": 8,
+    "title": "问题 I: C语言程序设计教程（第三版）课后习题6.5",
+    "description": "求以下三数的和,保留2位小数\n1~a之和\n1~b的平方和\n1~c的倒数和",
+    "input_description": "a b c为小于等于100的3个整数",
+    "sample_input": "100 50 10",
+    "output_description": "1+2+...+a + 1^2+2^2+...+b^2 + 1/1+1/2+...+1/c",
+    "sample_output": "47977.93",
+    "hint": "无"
+}

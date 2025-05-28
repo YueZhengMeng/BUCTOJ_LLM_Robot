@@ -1,0 +1,10 @@
+{
+    "idx": 19,
+    "title": "问题 T: C语言程序设计教程（第三版）课后习题7.5",
+    "description": "输入10个数字，然后逆序输出。",
+    "input_description": "十个整数",
+    "sample_input": "1 2 3 4 5 6 7 8 9 0",
+    "output_description": "逆序输出，空格分开",
+    "sample_output": "0 9 8 7 6 5 4 3 2 1",
+    "hint": "数组？堆栈？"
+}

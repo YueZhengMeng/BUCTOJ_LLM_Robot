@@ -1,0 +1,10 @@
+{
+    "idx": 2,
+    "title": "问题 C: C语言程序设计教程（第三版）课后习题4.8",
+    "description": "设圆半径r，圆柱高h  求圆周长C1、圆面积Sa、圆球表面积Sb、圆球体积Va、圆柱体积Vb。 用scanf输入数据，输出计算结果，输出时要求文字说明，取小数点后两位数字。请编程序。  PI＝3.14",
+    "input_description": "两个浮点数，r和h",
+    "sample_input": "1.5 3",
+    "output_description": "圆周长C1、圆面积Sa、圆球表面积Sb、圆球体积Va、圆柱体积Vb。 保留两位小数，不用四舍五入，每个结果后换行。",
+    "sample_output": "C1=9.42\nSa=7.07\nSb=28.26\nVa=14.13\nVb=21.19",
+    "hint": "注意要用float定义变量"
+}

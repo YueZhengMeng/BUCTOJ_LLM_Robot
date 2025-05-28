@@ -1,0 +1,10 @@
+{
+    "idx": 20,
+    "title": "问题 U: C语言程序设计教程（第三版）课后习题8.1",
+    "description": "写两个函数，分别求两个整数的最大公约数和最小公倍数，用主函数调用这两个函数，并输出结果两个整数由键盘输入。",
+    "input_description": "两个数",
+    "sample_input": "6 15",
+    "output_description": "最大公约数 最小公倍数",
+    "sample_output": "3 30",
+    "hint": "无"
+}

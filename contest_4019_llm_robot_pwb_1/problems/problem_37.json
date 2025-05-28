@@ -1,0 +1,10 @@
+{
+    "idx": 37,
+    "title": "问题 AL: C语言程序设计教程（第三版）课后习题10.2",
+    "description": "输入三个字符串，按由小到大的顺序输出",
+    "input_description": "3行字符串",
+    "sample_input": "cde\nafg\nabc",
+    "output_description": "按照从小到大输出成3行",
+    "sample_output": "abc\nafg\ncde",
+    "hint": "无"
+}

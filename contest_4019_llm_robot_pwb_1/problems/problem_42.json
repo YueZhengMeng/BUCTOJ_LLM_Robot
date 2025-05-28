@@ -1,0 +1,10 @@
+{
+    "idx": 42,
+    "title": "问题 AQ: C语言程序设计教程（第三版）课后习题11.1",
+    "description": "定义一个结构体变量（包括年、月、日）。计算该日在本年中是第几天，注意闰年问题。",
+    "input_description": "年月日",
+    "sample_input": "2000 12 31",
+    "output_description": "当年第几天",
+    "sample_output": "366",
+    "hint": "无"
+}

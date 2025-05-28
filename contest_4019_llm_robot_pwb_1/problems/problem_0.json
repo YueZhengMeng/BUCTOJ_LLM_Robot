@@ -1,0 +1,10 @@
+{
+    "idx": 0,
+    "title": "问题 A: C语言程序设计教程（第三版）课后习题1.5",
+    "description": "请参照本章例题，编写一个C程序，输出以下信息：\n**************************\n         Very    Good!\n**************************\n数＊号可看出，Very前面9空格，Good前面……\n*也是输出的一部分，别光打印Very Good!",
+    "input_description": "无需输入",
+    "sample_input": "无",
+    "output_description": "**************************Very    Good!**************************",
+    "sample_output": "无",
+    "hint": "无"
+}

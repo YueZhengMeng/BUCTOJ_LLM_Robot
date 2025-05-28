@@ -1,0 +1,10 @@
+{
+    "idx": 25,
+    "title": "问题 Z: C语言程序设计教程（第三版）课后习题8.6",
+    "description": "写一函数，将两个字符串连接",
+    "input_description": "两行字符串，每行字符串不超过100个字符",
+    "sample_input": "123\nabc",
+    "output_description": "链接后的字符串",
+    "sample_output": "123abc",
+    "hint": "无"
+}

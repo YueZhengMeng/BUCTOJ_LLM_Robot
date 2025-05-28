@@ -1,0 +1,10 @@
+{
+    "idx": 16,
+    "title": "问题 Q: C语言程序设计教程（第三版）课后习题7.2",
+    "description": "用选择法对10个整数从小到大排序。",
+    "input_description": "10个整数",
+    "sample_input": "4 85  3 234 45 345 345 122 30 12",
+    "output_description": "排序好的10个整数",
+    "sample_output": "3\n4\n12\n30\n45\n85\n122\n234\n345\n345",
+    "hint": "无"
+}

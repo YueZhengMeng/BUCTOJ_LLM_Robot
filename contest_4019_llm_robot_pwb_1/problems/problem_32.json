@@ -1,0 +1,10 @@
+{
+    "idx": 32,
+    "title": "问题 AG: C语言程序设计教程（第三版）课后习题9.4",
+    "description": "给年份year，定义一个宏，以判别该年份是否闰年。提示：宏名可以定义为LEAP_YEAR，形参为y，既定义宏的形式为  \n#define LEAP_YEAR(y) （读者设计的字符串）",
+    "input_description": "一个年份",
+    "sample_input": "2000",
+    "output_description": "根据是否闰年输出，是输出\"L\",否输出\"N\"",
+    "sample_output": "L",
+    "hint": "无"
+}

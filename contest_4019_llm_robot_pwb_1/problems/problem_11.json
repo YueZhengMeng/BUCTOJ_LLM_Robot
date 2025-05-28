@@ -1,0 +1,10 @@
+{
+    "idx": 11,
+    "title": "问题 L: C语言程序设计教程（第三版）课后习题6.8",
+    "description": "有一分数序列：  \n2/1 3/2 5/3 8/5 13/8 21/13......\n求出这个数列的前N项之和，保留两位小数。",
+    "input_description": "N",
+    "sample_input": "10",
+    "output_description": "数列前N项和",
+    "sample_output": "16.48",
+    "hint": "无"
+}

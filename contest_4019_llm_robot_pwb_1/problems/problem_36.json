@@ -1,0 +1,10 @@
+{
+    "idx": 36,
+    "title": "问题 AK: C语言程序设计教程（第三版）课后习题10.1",
+    "description": "输入三个整数，按由小到大的顺序输出。",
+    "input_description": "三个整数",
+    "sample_input": "2 3 1",
+    "output_description": "由小到大输出成一行，每个数字后面跟一个空格",
+    "sample_output": "1 2 3",
+    "hint": "无"
+}

@@ -1,0 +1,10 @@
+{
+    "idx": 21,
+    "title": "问题 V: C语言程序设计教程（第三版）课后习题8.2",
+    "description": "求方程 的根，用三个函数分别求当b^2-4ac大于0、等于0、和小于0时的根，并输出结果。从主函数输入a、b、c的值。",
+    "input_description": "a b c",
+    "sample_input": "4 1 1",
+    "output_description": "x1=? x2=?",
+    "sample_output": "x1=-0.125+0.484i x2=-0.125-0.484i",
+    "hint": "无"
+}

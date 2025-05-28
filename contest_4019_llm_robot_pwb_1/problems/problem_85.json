@@ -1,0 +1,10 @@
+{
+    "idx": 85,
+    "title": "问题 CH: 2.4.2 Web导航",
+    "description": "标准的 Web 浏览器包含在最近访问过的页面中向后和向前移动的功能。实现这些特性的一种方法是使用两个栈来跟踪前后移动可以到达的页面。支持以下命令。\nBACK：将当前页面推到前向栈的顶部。从后向栈的顶部弹出页面，使其成为新的当前页面。如果后向栈为空，则忽略该命令。\nFORWARD：将当前页面推到后向栈的顶部。从前向栈顶部弹出页面，使其成为新的当前页面。如果前向栈为空，则忽略该命令。\nVISIT：将当前页面推到后向栈的顶部，使得 URL 成为新的当前页面，前向栈清空。\nQUIT：退出浏览器。\n假设浏览器的最初页面为 URL ***###.acm.org/ (对 \"http://\" 用 \"***\" 代替，对 \"www\" 用 \"###\" 代替)。",
+    "input_description": "输入是一系列BACK、FORWARD、VISIT、QUIT命令。",
+    "sample_input": "VISIT ***acm.ashland.edu/\nVISIT ***acm.baylor.edu/acmicpc/\nBACK\nBACK\nBACK\nFORWARD\nVISIT ***###.ibm.com/\nBACK\nBACK\nFORWARD\nFORWARD\nFORWARD\nQUIT",
+    "output_description": "对于除了 QUIT 外的每个命令，如果不忽略该命令，则在执行该命令后单行输出当前页的 URL，否则输出 \"Ignored\"。QUIT 命令没有输出。",
+    "sample_output": "***acm.ashland.edu/\n***acm.baylor.edu/acmicpc/\n***acm.ashland.edu/\n***###.acm.org/\nIgnored\n***acm.ashland.edu/\n***###.ibm.com/\n***acm.ashland.edu/\n***###.acm.org/\n***acm.ashland.edu/\n***###.ibm.com/\nIgnored",
+    "hint": "URL 没有空白，最多有 70 个字符。任何时候，在每个栈中都不会超过 100 个元素。QUIT命令表示输入结束。"
+}

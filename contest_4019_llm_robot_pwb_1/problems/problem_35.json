@@ -1,0 +1,10 @@
+{
+    "idx": 35,
+    "title": "问题 AJ: C语言程序设计教程（第三版）课后习题9.10",
+    "description": "输入一行电报文字，将字母变成其下一字母（如’a’变成’b’……’z’变成’ａ’其它字符不变）。",
+    "input_description": "一行字符",
+    "sample_input": "a b",
+    "output_description": "加密处理后的字符",
+    "sample_output": "b c",
+    "hint": "无"
+}

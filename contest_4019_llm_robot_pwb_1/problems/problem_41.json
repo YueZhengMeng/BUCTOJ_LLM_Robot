@@ -1,0 +1,10 @@
+{
+    "idx": 41,
+    "title": "问题 AP: C语言程序设计教程（第三版）课后习题10.7",
+    "description": "有一字符串，包含n个字符。写一函数，将此字符串中从第m个字符开始的全部字符复制成为另一个字符串。",
+    "input_description": "数字n\n一行字符串\n数字m",
+    "sample_input": "6\nabcdef\n3",
+    "output_description": "从m开始的子串",
+    "sample_output": "cdef",
+    "hint": "无"
+}

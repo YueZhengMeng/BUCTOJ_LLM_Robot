@@ -1,0 +1,10 @@
+{
+    "idx": 29,
+    "title": "问题 AD: C语言程序设计教程（第三版）课后习题9.1",
+    "description": "定义一个带参的宏，使两个参数的值互换，并写出程序，输入两个数作为使用宏时的实参。输出已交换后的两个值。",
+    "input_description": "两个数，空格隔开",
+    "sample_input": "1 2",
+    "output_description": "交换后的两个数，空格隔开",
+    "sample_output": "2 1",
+    "hint": "无"
+}

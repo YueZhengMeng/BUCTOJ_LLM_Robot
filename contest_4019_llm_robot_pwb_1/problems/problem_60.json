@@ -1,0 +1,10 @@
+{
+    "idx": 60,
+    "title": "问题 BI: 交换最小数",
+    "description": "输入n(n<100)个数，找出其中最小的数，将它与最前面的数交换后输出这些数，若最小的数有多个只交换最前面的那个。",
+    "input_description": "输入有2行。\n第一行输入一个整数n，表示这个测试实例的数值的个数。\n第二行输入n个整数。",
+    "sample_input": "5\n5 4 3 2 1",
+    "output_description": "输出交换后的数列。",
+    "sample_output": "1 4 3 2 5",
+    "hint": "无"
+}

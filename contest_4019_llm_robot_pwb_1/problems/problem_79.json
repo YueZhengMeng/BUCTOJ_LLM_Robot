@@ -1,0 +1,10 @@
+{
+    "idx": 79,
+    "title": "问题 CB: 2.4.10.2 中位数",
+    "description": "求n个数中的中位数（n为奇数）",
+    "input_description": "第一行，输入一个整数 n  (1≤n<100 000，n为奇数)接下来n行，每行一个int范围的数字ai（1≤ai<1 000 000)",
+    "sample_input": "5\n2\n4\n1\n3\n5",
+    "output_description": "输出一个数，代表它们的中位数",
+    "sample_output": "3",
+    "hint": "无"
+}

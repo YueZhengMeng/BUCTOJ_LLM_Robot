@@ -1,0 +1,10 @@
+{
+    "idx": 43,
+    "title": "问题 AR: C语言程序设计教程（第三版）课后习题11.3",
+    "description": "现有有N个学生的数据记录，每个记录包括学号、姓名、三科成绩。\n编写一个函数input,用来输入一个学生的数据记录。\n编写一个函数print,打印一个学生的数据记录。\n在主函数调用这两个函数，读取N条记录输入，再按要求输出。\nN<100",
+    "input_description": "学生数量N占一行\n每个学生的学号、姓名、三科成绩占一行，空格分开。",
+    "sample_input": "2\na100 zhblue 70 80 90\nb200 newsclan 90 85 75",
+    "output_description": "每个学生的学号、姓名、三科成绩占一行，逗号分开。",
+    "sample_output": "a100,zhblue,70,80,90\nb200,newsclan,90,85,75",
+    "hint": "无"
+}

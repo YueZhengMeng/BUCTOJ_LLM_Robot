@@ -1,0 +1,10 @@
+{
+    "idx": 26,
+    "title": "问题 AA: C语言程序设计教程（第三版）课后习题8.7",
+    "description": "写一函数，将两个字符串中的元音字母复制到另一个字符串，然后输出。",
+    "input_description": "一行字符串",
+    "sample_input": "abcde",
+    "output_description": "顺序输出其中的元音字母（aeiuo）",
+    "sample_output": "ae",
+    "hint": "无"
+}

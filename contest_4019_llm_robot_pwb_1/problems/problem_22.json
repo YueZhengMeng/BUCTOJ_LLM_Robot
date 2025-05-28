@@ -1,0 +1,10 @@
+{
+    "idx": 22,
+    "title": "问题 W: C语言程序设计教程（第三版）课后习题8.3",
+    "description": "写一个判断素数的函数，在主函数输入一个整数，输出是否是素数的消息。",
+    "input_description": "一个数",
+    "sample_input": "97",
+    "output_description": "如果是素数输出prime\n如果不是输出not prime",
+    "sample_output": "prime",
+    "hint": "无"
+}
