@@ -99,7 +99,7 @@ def concat_problem_context(prompt_template, problem):
     所以使用占位符并replace的方案实现模板填充
     """
     problem_detail = []
-    if CONFIG["propmt_language"] == "CN":
+    if CONFIG["prompt_language"] == "CN":
         if problem.get("title"):
             problem_detail.append(f"题目标题：\n{problem['title']}")
         if problem.get("description"):

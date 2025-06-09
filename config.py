@@ -9,7 +9,7 @@ CONFIG = {
     "model_name": "deepseek-v3",
     "verbose": False,
     "only_gen_and_retry": False,
-    "propmt_language": "CN",
+    "prompt_language": "CN",
     "code_generator_prompt_key": "CODE_GENERATOR_CN",
     "fault_locator_prompt_key": "FAULT_LOCATOR_CN",
     "code_repairer_prompt_key": "CODE_REPAIRER_CN",
@@ -33,7 +33,7 @@ CONFIG["api_key"] = os.getenv("YUNWU_API_KEY")
 CONFIG["base_url"] = "https://yunwu.ai/v1"
 CONFIG["model_name"] = "o4-mini"
 CONFIG["only_gen_and_retry"] = False
-CONFIG["propmt_language"] = "EN"
+CONFIG["prompt_language"] = "EN"
 CONFIG["code_generator_prompt_key"] = "CODE_GENERATOR_EN"
 CONFIG["fault_locator_prompt_key"] = "FAULT_LOCATOR_EN"
 CONFIG["code_repairer_prompt_key"] = "CODE_REPAIRER_EN"
@@ -47,7 +47,7 @@ CONFIG["api_key"] = os.getenv("YUNWU_API_KEY")
 CONFIG["base_url"] = "https://yunwu.ai/v1"
 CONFIG["model_name"] = "gemini-2.5-pro-preview-05-06"
 CONFIG["only_gen_and_retry"] = True
-CONFIG["propmt_language"] = "EN"
+CONFIG["prompt_language"] = "EN"
 CONFIG["code_generator_prompt_key"] = "CODE_GENERATOR_EN_SIMPLE"
 CONFIG["fault_locator_prompt_key"] = "FAULT_LOCATOR_EN"
 CONFIG["code_repairer_prompt_key"] = "CODE_REPAIRER_EN"
@@ -61,7 +61,7 @@ CONFIG["api_key"] = os.getenv("DASHSCOPE_API_KEY")
 CONFIG["base_url"] = "https://dashscope.aliyuncs.com/compatible-mode/v1"
 CONFIG["model_name"] = "deepseek-v3"
 CONFIG["only_gen_and_retry"] = False
-CONFIG["propmt_language"] = "CN"
+CONFIG["prompt_language"] = "CN"
 CONFIG["code_generator_prompt_key"] = "CODE_GENERATOR_CN"
 CONFIG["fault_locator_prompt_key"] = "FAULT_LOCATOR_CN"
 CONFIG["code_repairer_prompt_key"] = "CODE_REPAIRER_CN"
