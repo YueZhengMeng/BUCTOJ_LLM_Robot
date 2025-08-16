@@ -387,3 +387,5 @@ if __name__ == "__main__":
     print("-------------------------------------------")
     print(concat_problem_context(PROMPTS["CODE_GENERATOR_CN"], test_problem))
     print("-------------------------------------------")
+    print(concat_problem_context(PROMPTS["CODE_GENERATOR_CN_SIMPLE"], test_problem))
+    print("-------------------------------------------")
