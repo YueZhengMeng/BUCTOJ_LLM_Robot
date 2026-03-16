@@ -1,0 +1,10 @@
+{
+    "idx": 4,
+    "title": "问题 E: 括号匹配问题",
+    "description": "判断仅由小括号组成的字符串是否满足括号匹配规则",
+    "input_description": "输入包括多行，每行一个仅有小括号组成的字符串，长度不超过100",
+    "sample_input": "()()()\n((()))\n())(\n((()",
+    "output_description": "输出包括多行，如果对应的输入括号匹配，输出YES，否则输出NO",
+    "sample_output": "YES\nYES\nNO\nNO",
+    "hint": "建议使用链式队列解决该问题，代码框架如下：#include<iostream>#include<string>usingnamespacestd;structNode{chardata;Node*next;};typedefNode*Stack;voidInitStack(Stack&S) {// TODO: Initialize the stack.}voidDestroyStack(Stack&S) {// TODO: Destroy the stack and free all nodes.}voidPush(Stack&S,chardata) {// TODO: Push an element onto the stack.}boolIsEmpty(constStack&S) {returnS==nullptr;// This check is preserved as it's non-functional.}charPop(Stack&S) {if(IsEmpty(S)) {return'\\0';// Return null character if stack is empty.}// TODO: Pop an element from the stack.return'\\0';// Return the popped element or null character.}boolisMatching(conststring&str) {StackS;InitStack(S);for(charc:str) {// TODO: Process each character based on the given conditions.}boolresult=IsEmpty(S);// This check is preserved as it's non-functional.DestroyStack(S);returnresult;}voidBracketMatch() {stringline;while(getline(cin,line)) {// TODO: Check if the brackets in the line match.}}intmain() {BracketMatch();return0;}"
+}

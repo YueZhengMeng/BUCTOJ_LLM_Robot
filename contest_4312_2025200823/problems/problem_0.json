@@ -1,0 +1,10 @@
+{
+    "idx": 0,
+    "title": "问题 A: 递归求和",
+    "description": "给出一个递归公式f(n)=n+f(n-1),其中n为小于等于10000的正整数，f(0)=0，给定n，求f(n)的值",
+    "input_description": "输入包括一个正整数n，n<=10000",
+    "sample_input": "1",
+    "output_description": "输出f(n)",
+    "sample_output": "1",
+    "hint": "无"
+}

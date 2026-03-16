@@ -1,0 +1,10 @@
+{
+    "idx": 10,
+    "title": "问题 K: 这是一道数列题",
+    "description": "小宇认为斐波那契数列是一个非常神奇的数列，他想知道斐波那契数列的第 n 项能否被 3 整除。\n斐波那契数列：1, 1, 2, 3, 5, 8 ……\n斐波那契数列递推公式：f1 = 1，f2 = 1，fn = fn-1 + fn-2",
+    "input_description": "一行包含一个整数 n，表示数列第 n 项（1 ≤ n ≤ 45）。",
+    "sample_input": "4",
+    "output_description": "若斐波那契数列的第 n 项能被 3 整除，输出 Y，反之输出 N。",
+    "sample_output": "Y",
+    "hint": "无"
+}

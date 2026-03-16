@@ -1,0 +1,10 @@
+{
+    "idx": 2,
+    "title": "问题 C: 算法3-1：八进制数",
+    "description": "将十进制数转换为八进制，并输出。\n\n\n\n\n\n图：将十进制数转换为八进制并输出",
+    "input_description": "输入包含若干十进制正整数。",
+    "sample_input": "1\n2\n3\n7\n8\n9\n19\n10020345",
+    "output_description": "输出相应的八进制数，每个占一行。",
+    "sample_output": "1\n2\n3\n7\n10\n11\n23\n46162771",
+    "hint": "*** 提示已隐藏，点击此处可显示 ***收起提示[-]\n\t\t提示：\n书上有相应的算法，需要补充缺失的函数。\n总结：\n1、数值转换使用到堆栈，但是用函数调用（系统的堆栈）将会更为方便。\n2、书中的算法实际上只能处理正整数，你有更好的方法还能够处理0和负整数么？建议使用链式队列解决该问题，代码框架如下：#include<iostream>#include<cstdio>usingnamespacestd;structNode{intdata;Node* next;};typedefNode* Stack;voidInitStack(Stack&S) {S =nullptr;}voidDestroyStack(Stack&S) {// TODO: Destroy the stack and free all nodes.}intPush(Stack&S,intdata) {// TODO: Push an element onto the stack.return0;// You might want to change the return value based on your implementation.}intIsEmpty(constStack&S) {if(S ==nullptr)return1;elsereturn0;}intTop(Stack&S) {if(IsEmpty(S)) {cout <<\"error, Top an empty stack\"<< endl;return-1;}// TODO: Return the top element of the stack.return-1;// Return appropriate value.}intPop(Stack&S) {if(IsEmpty(S)) {cout <<\"error, Pop an empty stack\"<< endl;return-1;}// TODO: Pop an element from the stack.return-1;// Return the popped element or an error value.}voidPrintStack(constStack&S) {cout <<\"======test code=====\"<< endl;Node* p = S;while(p !=nullptr) {cout <<p->data <<\"\";p =p->next;}cout << endl;cout <<\"======test code=====\"<< endl;}voidConversion(intnum) {// TODO: Convert the number to its octal representation using the stack.}intmain() {// freopen(\"/config/workspace/answer/DataStructure/test.in\",\"r\",stdin);intnum;while(cin >> num) {Conversion(num);}return0;}"
+}
