@@ -155,7 +155,7 @@ async def deal_one_problem_async(session, problem):
                 # 如果只反复尝试生成，则跳过缺陷分析和代码修复
                 if CONFIG["only_gen_and_retry"]:
                     print(f"❌ 题目 {problem_id} 跳过修复，开始重新生成代码")
-                    break   # 回到生成循环
+                    break  # 回到生成循环
                 else:
                     # 缺陷分析和代码修复
                     fault_locate_and_repair_success = await code_fault_locate_and_repair_workflow_async(

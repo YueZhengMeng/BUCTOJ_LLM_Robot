@@ -32,7 +32,7 @@ def search_contest_by_id(session, contest_id):
         return None
 
     if "比赛尚未开始或私有" in soup.get_text():
-        print(f"\❌ 比赛尚未开始或私有：{contest_id}")
+        print(f"❌ 比赛尚未开始或私有：{contest_id}")
         return None
 
     # 判断页面是否包含“进行中”

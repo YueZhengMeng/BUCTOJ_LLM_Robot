@@ -2,27 +2,28 @@ import asyncio
 import os
 
 CONFIG = {
-    "username": "llm_robot_pwb_1", # BUCTOJ的用户名，换成你自己的。
-    "password": "llm_robot_pwb_072", # 密码，换成你自己的。
-    "api_key": os.getenv("DASHSCOPE_API_KEY"), # LLM厂商平台提供的API Key，我在这里用的是阿里云的。
-    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1", # LLM厂商API平台的URL，我这里用的是阿里云的。
-    "model_name": "deepseek-v3", # LLM厂商API平台的模型名称，我这里用的是阿里云的deepseek-v3。deepseek官网的模型名称是deepseek-chat。
-    "verbose": False, # 本来想做一个调试模式，实时输出日志，但是没做完。该功能无效，不用在意。
-    "only_gen_and_retry": False, # 只生成代码，如果评测不通过，直接重新生成，不进行故障定位和修复。
-    "prompt_language": "CN", # Prompt模板的语言，可选值：CN, EN
-    "code_generator_prompt_key": "CODE_GENERATOR_CN", # 代码生成智能体的Prompt模板，其他可选项：CODE_GENERATOR_EN、CODE_GENERATOR_CN_SIMPLE、CODE_GENERATOR_EN_SIMPLE
-    "fault_locator_prompt_key": "FAULT_LOCATOR_CN", # 故障定位智能体的Prompt模板，其他可选项：FAULT_LOCATOR_EN
-    "code_repairer_prompt_key": "CODE_REPAIRER_CN", # 代码修复智能体的Prompt模板，其他可选项：CODE_REPAIRER_EN
-    "language_id": 1, # BUCTOJ平台的编程语言代号，1表示C++。不用改。
-    "contest_id": 4020, # BUCTOJ比赛的ID，这里填你要参加的比赛ID。浏览器打开后比赛页面后，地址栏中会显示。
-    "concurrency_limit": 16, # LLM API Call的最大协程并发数，不要太大。
-    "local_test_max_time_wait": 10, # 本地测试最长运行时间，超过这个时间，就认为本地测试超时。
-    "submit_code_delay": 10, # BUCTOJ平台同一个账号提交代码的最短间隔时间为10秒。不用改。
-    "online_judge_max_time_wait": 15, # BUCTOJ在线判题最长等待时间，超过这个时间，就认为在线判题超时。
-    "online_judge_poll_interval": 3, # 向BUCTOJ平台轮询在线判题结果的间隔时间，默认为3秒。不用改。
-    "max_local_test_turn": 2, # 本地测试的最多尝试次数，超过这个次数就放弃。
-    "max_online_judge_turn": 2, # 在线判题的最多尝试次数，超过这个次数就放弃。
-    "max_generate_turn": 2, # 重复生成代码的最多尝试次数，超过这个次数就放弃。
+    "username": "2025200823",  # BUCTOJ的用户名，换成你自己的。
+    "password": "Pp072075408",  # 密码，换成你自己的。
+    "contest_id": 4312,  # BUCTOJ比赛的ID，这里填你要参加的比赛ID。浏览器打开后比赛页面后，地址栏中会显示。
+    "api_key": os.getenv("DEEPSEEK_API_KEY"),  # LLM厂商平台提供的API Key，我在这里用的是Deepseek官网的。
+    "base_url": "https://api.deepseek.com/v1",  # LLM厂商API平台的URL，我这里用的是Deepseek官网的。
+    "model_name": "deepseek-reasoner",  # LLM厂商API平台的模型名称，我这里用的是deepseek-v3.2-think。
+    "verbose": False,  # 本来想做一个调试模式，实时输出日志，但是没做完。该功能无效，不用在意。
+    "only_gen_and_retry": True,  # 只生成代码，如果评测不通过，直接重新生成，不进行故障定位和修复。
+    "prompt_language": "EN",  # Prompt模板的语言，可选值：CN, EN
+    "code_generator_prompt_key": "CODE_GENERATOR_EN",
+    # 代码生成智能体的Prompt模板，其他可选项：CODE_GENERATOR_EN、CODE_GENERATOR_CN_SIMPLE、CODE_GENERATOR_EN_SIMPLE
+    "fault_locator_prompt_key": "FAULT_LOCATOR_EN",  # 故障定位智能体的Prompt模板，其他可选项：FAULT_LOCATOR_EN
+    "code_repairer_prompt_key": "CODE_REPAIRER_EN",  # 代码修复智能体的Prompt模板，其他可选项：CODE_REPAIRER_EN
+    "language_id": 1,  # BUCTOJ平台的编程语言代号，1表示C++。不用改。
+    "concurrency_limit": 16,  # LLM API Call的最大协程并发数，不要太大。
+    "local_test_max_time_wait": 10,  # 本地测试最长运行时间，超过这个时间，就认为本地测试超时。
+    "submit_code_delay": 10,  # BUCTOJ平台同一个账号提交代码的最短间隔时间为10秒。不用改。
+    "online_judge_max_time_wait": 15,  # BUCTOJ在线判题最长等待时间，超过这个时间，就认为在线判题超时。
+    "online_judge_poll_interval": 3,  # 向BUCTOJ平台轮询在线判题结果的间隔时间，默认为3秒。不用改。
+    "max_local_test_turn": 2,  # 本地测试的最多尝试次数，超过这个次数就放弃。
+    "max_online_judge_turn": 2,  # 在线判题的最多尝试次数，超过这个次数就放弃。
+    "max_generate_turn": 2,  # 重复生成代码的最多尝试次数，超过这个次数就放弃。
 }
 
 # Robot 19 6
@@ -65,6 +66,21 @@ CONFIG["prompt_language"] = "CN"
 CONFIG["code_generator_prompt_key"] = "CODE_GENERATOR_CN"
 CONFIG["fault_locator_prompt_key"] = "FAULT_LOCATOR_CN"
 CONFIG["code_repairer_prompt_key"] = "CODE_REPAIRER_CN"
+"""
+
+"""
+"username": "llm_robot_pwb_1",
+"password": "llm_robot_pwb_072",
+"""
+
+"""
+"username": "YueZhengMeng",
+"password": "Pp072075408",
+"""
+
+"""
+"username": "2025200823",
+"password": "Pp072075408",
 """
 
 # BUCTOJ平台的重要接口
